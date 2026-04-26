@@ -10,7 +10,7 @@ function changeBackground() {
     
     // Error Handling
     if(!colorDisplay){
-        alert("Please Enter Color");
+        alert("Please Enter Color Name");
         return;
     }
 
