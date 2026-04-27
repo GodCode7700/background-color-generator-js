@@ -47,10 +47,11 @@ input::placeholder{
 button {
     width: 550px;
     padding: 16px;
+    margin: 7px;
     font-size: 30px;
     border-radius: 15px;
     border: 1px solid #de3737;
-    background: #ce2626;
+    background: #960707;
     color: #ffffff;
     cursor: pointer;
     outline: none;
@@ -61,9 +62,23 @@ button:hover{
     background: #af0404;
 }
 
+#generate-color{
+    width: 550px;
+    padding: 16px;
+    margin: 7px;
+    font-size: 30px;
+    border-radius: 15px;
+    border: 1px solid blue;
+    background: rgb(54, 54, 201);
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.2s ease-in;
+}
 
-
-
+#generate-color:hover{
+    background: rgb(4, 4, 143);
+}
 
 
 
