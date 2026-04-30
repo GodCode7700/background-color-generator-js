@@ -1,4 +1,5 @@
 // Make Change Background Color Project.
+// Selecting All Elements.
 const body = document.querySelector("body");
 const colorInput = document.querySelector("#color-input");
 const applyDisplay = document.querySelector("#apply-color");
@@ -23,7 +24,8 @@ function changeBackground() {
     colorInput.value = "";
 }
 
-// Click Event
+
+// Click Event in applyDisplay
 applyDisplay.addEventListener("click",changeBackground);
 
 // Enter Key Support
@@ -53,6 +55,7 @@ function randomColorGenerator() {
 }
 
 
+// Click Event in generateBtn
 generateBtn.addEventListener("click", randomColorGenerator);
 
 
