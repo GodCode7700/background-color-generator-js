@@ -34,9 +34,25 @@ colorInput.addEventListener("keydown", function(event) {
 })
 
 
-generateBtn.addEventListener("click", () =>{
-    console.log("Hello Color");
-})
+function randomColorGenerator() {
+    
+    // make a varible for random color:-
+    let r = Math.floor(Math.random() * 256);
+    let g = Math.floor(Math.random() * 256);
+    let b = Math.floor(Math.random() * 256);
+
+    
+    // color variable:-
+    let rgb = `rgb(${r}, ${g}, ${b})`;
+    console.log(rgb);
+
+    
+    // display on screen:-
+    body.style.backgroundColor = rgb;
+}
+
+
+generateBtn.addEventListener("click", randomColorGenerator);
 
 
 
