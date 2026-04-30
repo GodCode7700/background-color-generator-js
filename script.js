@@ -2,6 +2,9 @@
 const body = document.querySelector("body");
 const colorInput = document.querySelector("#color-input");
 const applyDisplay = document.querySelector("#apply-color");
+const generateBtn = document.querySelector("#generate-color");
+
+
 
 
 // Function of Change Background Color
@@ -31,7 +34,9 @@ colorInput.addEventListener("keydown", function(event) {
 })
 
 
-
+generateBtn.addEventListener("click", () =>{
+    console.log("Hello Color");
+})
 
 
 
