@@ -34,6 +34,7 @@ colorInput.addEventListener("keydown", function(event) {
 })
 
 
+// Function of random color generator
 function randomColorGenerator() {
     
     // make a varible for random color:-
