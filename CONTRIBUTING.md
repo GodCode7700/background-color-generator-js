@@ -46,7 +46,7 @@ Click the **Fork** button on GitHub.
 ### 2. Clone Your Fork
 
 ```bash
-git clone https://github.com/your-username/background-color-generator.git
+git clone https://github.com/GodCode7700/background-color-generator-js.git
 cd background-color-generator
 ```
 
