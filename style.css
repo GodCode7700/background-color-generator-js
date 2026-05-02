@@ -5,13 +5,26 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* --------------pop up------------------- */
-
-.pop-container{
+body{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
+}
+
+/* --------------pop up------------------- */
+
+.pop-container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    background-color: rgb(244, 231, 206);
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
 }
 
 .message{
@@ -53,6 +66,10 @@
     color: #ffffff;
     cursor: pointer;
     outline: none;
+}
+
+.active{
+    display: none; 
 }
 /* --------------pop up------------------- */
 

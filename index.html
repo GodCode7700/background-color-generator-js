@@ -10,26 +10,28 @@
 </head>
 <body>
 
-    <div class="pop-container">
-        <div class="message">
-            <div class="error">
-                <i class="fa-solid fa-face-frown"></i>
-                <p>ERROR!</p>
-            </div>
-            <h4>Oops! Please enter a color name to continue.</h4>
-            <button class="close">Close</button>
-        </div>
-    </div>
+    
     <div class="container">
         <h1>Change Background Color</h1>
-
+        
         <div class="color">
             <input id="color-input" type="text" placeholder="Enter Color">
         </div>
-
+        
         <div class="apply">
             <button id="apply-color">Apply Color</button>
             <button id="generate-color">Generate Random Color</button>
+        </div>
+    </div>
+    
+    <div class="pop-container active">
+        <div class="message">
+                <div class="error">
+                    <i class="fa-solid fa-face-frown"></i>
+                    <p>ERROR!</p>
+                </div>
+                <h4>Oops! Please enter a color name to continue.</h4>
+                <button class="close">Close</button>
         </div>
     </div>
     <script src="script.js"></script>
